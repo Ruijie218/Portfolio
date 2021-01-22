@@ -1155,3 +1155,8 @@ th {
         padding-right: 20px 15px;
     }
 }
+
+p .disclaimer {
+    font-size: smaller;
+    text-align: right;
+}
