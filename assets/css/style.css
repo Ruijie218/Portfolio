@@ -436,7 +436,7 @@ section {
 
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 
 .skills .progress {
@@ -648,6 +648,26 @@ th {
 # Services
 --------------------------------------------------------------*/
 
+.services .skill-container h3 {
+    color: #173b6c
+}
+
+.services .skill-container h3::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #149ddd;
+    bottom: 0;
+    left: 0;
+}
+
+.services .container {
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+
 .services .icon-box {
     margin-bottom: 20px;
 }
@@ -678,25 +698,30 @@ th {
     color: #149ddd;
 }
 
-.services .title {
-    margin-left: 80px;
-    font-weight: 700;
-    margin-bottom: 15px;
-    font-size: 18px;
+.services .skill-box {
+    padding: 1rem;
+    cursor: pointer;
 }
 
-.services .title a {
-    color: #343a40;
+.services .skill-title {
+    align-items: center;
+    align-content: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
-.services .title a:hover {
-    color: #149ddd;
+.services .skill-title h4 {
+    margin: 0.5rem;
+    vertical-align: middle;
+    text-align: center;
+    font-size: large;
+    font-weight: 800;
 }
 
-.services .description {
-    margin-left: 80px;
-    line-height: 24px;
-    font-size: 14px;
+.services .skill-title img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 
