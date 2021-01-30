@@ -1073,6 +1073,11 @@ th {
     z-index: 1;
 }
 
+.portfolio-details .portfolio-details-carousel .img-studybee {
+    max-width: 80%;
+    height: auto;
+}
+
 .portfolio-details .portfolio-details-carousel .owl-nav,
 .portfolio-details .portfolio-details-carousel .owl-dots {
     margin-top: 5px;
